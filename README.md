@@ -5,7 +5,7 @@ Real-time and video-based eye tracking, gaze direction, off-screen detection, no
 ## Features
 
 - Real-time webcam gaze tracking
-- Video-based gaze analysis
+- Video-based gaze analysis ( face_landmarker.task must be ! )
 - Gaze direction classification
 - NO_FACE detection
 - OFF-SCREEN detection
@@ -56,18 +56,14 @@ python gaze_video.py --video "C:\path\to\video.mp4" --output "annotated_output.m
 
 ### Video Controls
 
-- SPACE = pause / resume
+- SPACE = pause .. resume
 - F = flip
 - R = restart
 - ESC = exit
 
 ## Notes
 
-- Best performance is achieved after calibration.
+- Best performance is achieved after "CALİBRATİON" .........
 - NO_FACE means no face was detected in the frame.
 - OFF-SCREEN means the face is visible but attention is outside the screen.
 - If calibration is unavailable, the system uses head-pose fallback logic.
-
-## License
-
-MIT License
